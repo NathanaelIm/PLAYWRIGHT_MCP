@@ -22,3 +22,4 @@ test('Login to SauceDemo', async ({ page }) => {
   // Verify successful login
   expect(page.url()).toContain('inventory');
 });
+console.log('update');
